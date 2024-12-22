@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCS3320 - خادم الويب لشبكات الحاسوب</title>
+    <link rel="stylesheet" href="main_ar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Page Title -->
+    <header>
+        <h1>مرحبًا بكم في خادم الويب لشبكات الحاسوب - ENCS3320 </h1>
+    </header>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Left Member -->
+        <div class="member-box">
+            <img src="images/Sadeen.png" alt="سدين خطيب" class="member-photo">
+            <h2> سَدين خطيب </h2>
+            <h3>1212164</h3>
+            <div class="skills">
+                <h4>المهارات</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+                <p class="skill-label">بُنية المعلومات،  الذكاء الاصطناعي، إدارة قواعد البيانات، تطوير الويب، لغة جافا و ++C.</p>
+            </div>
+            <ul>
+                <li><p1>المهندسة سدين مُتخصصة في المشاريع التقنيّة، ولديها خِبرة في بُنية المعلومات، الذكاء الاصطناعي، وإدارة قواعد البيانات.</p></li>
+                <li><p1>تتميّز في التصوير الفوتوغرافي، مهارات التواصل والإدارة، ولديها قدرة عالية على حلّ المشكلات وتنفيذ المشاريع بكفاءة.</p></li>
+                <li><p1>في وقت فراغها، تستمتع سدين بالقراءة، والتلوين، والكتابة للحفاظ على إبداعها وراحتها.</p></li>
+            </ul>
+        </div>
+
+        <!-- Center Content -->
+        <div class="center-content">
+            <!-- Chapter 1 Section -->
+            <div class="chapter-section">
+                <h2>الفصل 1: مقدمة في الشبكات</h2>
+                <p>
+                    الإنترنت هو "شبكة شبكات" عالمية، تربط مليارات الأجهزة حول العالم. يوفر العمود الفقري للتطبيقات مثل 
+                    <b>تصفح الويب</b>، <b>بث الفيديو</b>، <b>البريد الإلكتروني</b> والمزيد.
+                </p>
+                <img src="images/InternetStructure.jpg" alt="هيكل الإنترنت" class="content-image" title="اضغط للتعرف على هيكل الإنترنت.">
+                <button class="accordion-btn">قراءة المزيد</button>
+                <div class="accordion-content">
+                    <h4>نظرة مفصلة على هيكل الإنترنت:</h4>
+                    <p>يُظهر هذا الرسم التوضيحي المكونات الأساسية للبنية التحتية للإنترنت:</p>
+                    <ul>
+                        <li><b>شبكات الوصول:</b> توفر الاتصال للمستخدمين النهائيين بالإنترنت عبر الاتصالات السلكية أو اللاسلكية.</li>
+                        <li><b>شبكات النواة:</b> هي شبكة من أجهزة التوجيه عالية السعة التي تشكل العمود الفقري للإنترنت، وتحمل البيانات عبر المسافات الطويلة.</li>
+                        <li><b>مزودو الخدمة:</b> تشمل مزودي خدمة الإنترنت (ISPs) الذين يديرون الوصول إلى الإنترنت للمستخدمين والشركات.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Chapter 2 Section -->
+            <div class="chapter-section">
+                <h2>الفصل 2: بروتوكولات الشبكات</h2>
+                <p>
+                    يتناول هذا الفصل البروتوكولات الأساسية في الشبكات التي تشكل العمود الفقري للتواصل عبر الإنترنت. تلعب البروتوكولات الرئيسية مثل <b>TCP/IP</b> و <b>UDP</b> أدوارًا حيوية في ضمان نقل البيانات بكفاءة وموثوقية وأمان عبر الشبكات المتنوعة.
+                </p>
+                <img src="images/NetworkProtocols.jpg" alt="بروتوكولات الشبكات" class="content-image" title="اضغط لمعرفة المزيد عن بروتوكولات الشبكات.">
+                <button class="accordion-btn">قراءة المزيد</button>
+                <div class="accordion-content">
+                    <h4>تفاصيل البروتوكولات:</h4>
+                    <p>يوضح الرسم التوضيحي أعلاه مكونات مجموعة بروتوكولات الإنترنت، المعروفة أيضًا بـ <b>مكدس بروتوكولات TCP/IP</b>. هذا هو الهيكل الأساسي الذي يدعم الاتصال عبر الشبكات بما في ذلك الإنترنت. يتم تقسيم المكدس عادةً إلى أربع طبقات:</p>
+                    <ul>
+                        <li><b>طبقة التطبيقات:</b> تحتوي على التطبيقات التي يتفاعل معها المستخدم، مثل المتصفحات، عملاء البريد الإلكتروني، وأنظمة مشاركة الملفات. تتفاعل مباشرة مع العمليات الخاصة بالمستخدم وتتيح الاتصال عبر بروتوكولات مثل HTTP و FTP و SMTP.</li>
+                        <li><b>طبقة النقل:</b> مسؤولة عن الاتصال بين الطرفين. البروتوكولات الرئيسية مثل TCP (بروتوكول التحكم بالنقل) و UDP (بروتوكول بيانات المستخدم) تعمل هنا، لضمان نقل البيانات بكفاءة وموثوقية.</li>
+                        <li><b>طبقة الإنترنت:</b> تتعامل مع توجيه البيانات عبر الشبكات المختلفة باستخدام بروتوكول IP (بروتوكول الإنترنت). تحدد الآليات الخاصة بالتوجيه والعناوين لضمان وصول البيانات إلى وجهتها.</li>
+                        <li><b>طبقة الوصول إلى الشبكة:</b> تُعرف أيضًا باسم طبقة الارتباط، وهي تدير النقل الفعلي للبيانات عبر وسائط متعددة مثل Ethernet و Wi-Fi وغيرها من تقنيات الشبكات.</li>
+                    </ul>
+                    <p>
+                        يتيح مكدس بروتوكولات TCP/IP للأجهزة المختلفة مثل أجهزة الكمبيوتر والهواتف المحمولة التواصل بسهولة عبر العالم، مما يجعله العمود الفقري للإنترنت الحديث. يُظهر الرسم التوضيحي كيف تعمل كل طبقة معًا لضمان نقل البيانات بكفاءة وموثوقية.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Member -->
+        <div class="member-box">
+            <img src="images/omar.png" alt="مُحمد عُمر" class="member-photo">
+            <h2> مُحمد عُمر</h2>
+            <h3>1212429</h3>
+            <div class="skills">
+                <h4>المهارات</h4>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 60%"></div>
+                </div>
+                <p class="skill-label">بايثون، بُنية المعلومات، والأمن السيبراني</p>
+            </div>
+            <ul>
+                <li class="description">
+                    ماهر في لغة البايثون . يحب قراءة المدونات التقنية ولعب الشطرنج.
+                </li>
+                <li class="description">
+                    لديه فهم قوي للخوارزميات وهياكل البيانات، مع القدرة على تطبيقها بفعالية في حل المشكلات المعقدة.
+                </li>
+                <li class="description">
+                    يحب السعي لتجارب جديدة مثل السفر واستكشاف العالم.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer with Links -->
+    <footer>
+        <div class="footer-links">
+            <ul>
+                <li><a href="supporting_material_ar.html">المواد المساندة</a></li>
+                <li><a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">موقع الكتاب الإلكتروني<i class="fas fa-book-open"></i></a></li>
+                <li><a href="https://ritaj.birzeit.edu/" target="_blank">موقع ريتاج<i class="fas fa-tree"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- Language Selector in Footer -->
+        <div class="language-selector" style="text-align: center; margin-top: 20px;">
+            <button onclick="location.reload();">العربية</button>
+            <button onclick="window.location.href='main_en.html'">الإنجليزية</button>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for Accordion Effect
+        document.querySelectorAll('.accordion-btn').forEach((button) => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>

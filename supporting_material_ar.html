@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المواد الداعمة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f6f9;
+        }
+
+        /* Main container with gradient background */
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #1fa992, #f4f6f9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 30px 20px;
+        }
+
+        /* Header Style */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            padding-top: 20;
+            font-size: 2.5em;
+            color: #ffffff;
+            font-family: Georgia, serif;
+        }
+
+        /* Search Box */
+        .search-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 40px;
+        }
+
+        .search-box label {
+            font-size: 1.2em;
+            font-family: 'Lucida Sans', sans-serif;
+            color: #125a4e;
+            margin-bottom: 10px;
+        }
+
+        .search-box input[type="text"] {
+            width: 90%;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .search-box input[type="submit"] {
+            padding: 12px 25px;
+            font-size: 16px;
+            color: white;
+            background-color: #1fa992;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-family: 'Lucida Sans' , serif;
+            font-weight: bold;
+        }
+
+        .search-box input[type="submit"]:hover {
+            background-color: #1fa992;
+        }
+
+        /* Results Section */
+        .result {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        .result img, .result video {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        /* Footer Section */
+        footer {
+            width: 100%;
+            background-color: #238776;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 500;
+            font-family: Georgia, serif;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>المواد الداعمة</h1>
+        </header>
+
+        <div class="search-box">
+            <form action="supporting_material_ar.html" method="get">
+                <label for="query">ابحث عن صورة أو فيديو:</label>
+                <input type="text" id="query" name="query" placeholder="أدخل اسم الملف" required>
+                <input type="submit" value="بحث">
+            </form>
+        </div>
+
+        <!-- Placeholder for the result -->
+        <div class="result">
+            <!-- The server will inject the result here when a file is found -->
+            <!-- Example of how to display the result -->
+            <!-- <img src="path/to/image.jpg" alt="وصف الصورة"> -->
+            <!-- <video src="path/to/video.mp4" controls></video> -->
+        </div>
+    </div>
+
+    <!-- Footer with Links -->
+    <footer>
+        <a href="main_ar.html">الرئيسية</a>
+        <a href="https://gaia.cs.umass.edu/kurose_ross/index.php" target="_blank">موقع الكتاب الدراسي</a>
+        <a href="https://ritaj.birzeit.edu/" target="_blank">موقع ريتاج</a>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
